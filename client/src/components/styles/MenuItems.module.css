@@ -1,0 +1,102 @@
+.overlay {
+    columns: 4 auto;
+    column-span: unset;
+    }
+
+.itemWrapper {
+    border: black solid 2px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 400px;
+    margin: 5px;
+    background-color: rgba(29, 32, 30, 0.363);
+    -webkit-transform: scale(0.95);
+	transform: scale(0.95);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.itemWrapper:hover {
+    border-color: rgb(43, 29, 14);
+    color: rgba(255, 255, 255, 0.658);
+    cursor: pointer;
+    background-color: rgba(29, 32, 30, 0.705);
+    -webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+.title {
+    margin: 10px 5px 10px 5px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.p {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+
+.price {
+    display: block;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+    float: right;
+    border-radius: 50px;
+    filter: contrast(82%);
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.checkout {
+    color: rgba(245, 245, 245, 0.829);
+    font-size: larger ;
+    font-weight: bolder;
+    border: solid rgba(255, 255, 255, 0.664) 2px;
+    padding: 4px 20px 7px 20px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 15px;
+}
+
+.checkout:hover {
+    text-decoration: none;
+    background-color: rgba(255, 145, 0, 0.39);
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.marginMe {
+    margin: 25px 0 25px 0;
+    text-shadow: 1px 1px rgba(245, 245, 245, 0.534);
+    color: black;
+}
+
+.li {
+    font-size: large;
+    font-style: italic;
+    margin: 5px;
+    font-weight: 400;
+    color: black;
+    text-shadow: 1px 1px rgba(245, 245, 245, 0.534);
+    background-color: rgba(245, 245, 245, 0.445);
+    border-radius: 25px;
+    width: fit-content;
+    padding: 5px;
+}
+
+.orderDetails {
+    margin: 0 0 20px 0;
+    text-shadow: 1px 1px rgba(245, 245, 245, 0.534);
+    color: black;
+}
